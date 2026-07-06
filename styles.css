@@ -14571,7 +14571,7 @@ img[loading="lazy"]{background:linear-gradient(90deg,#f0ebe0 25%,#e8e0d0 50%,#f0
   color:var(--gold,#C9A96E);opacity:.7}
 .msk-discover-title{font-family:'Cinzel',serif;font-weight:600;font-size:clamp(1.1rem,2.5vw,1.8rem);
   letter-spacing:.28em;text-transform:uppercase;color:var(--ink,#18140F);margin:0}
-.msk-coll-wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:0;background:var(--cream,#FDFAF5)}
+.msk-coll-wrap{display:grid;grid-template-columns:repeat(1,1fr);gap:0;background:var(--cream,#FDFAF5)}
 .msk-coll-tile{position:relative;overflow:hidden;cursor:none;aspect-ratio:3/4}
 .msk-coll-tile-bg{position:absolute;inset:0;background-size:cover;background-position:center;
   transform:scale(1);transition:transform .7s cubic-bezier(.25,.46,.45,.94);will-change:transform}
@@ -15077,7 +15077,7 @@ html,body{margin:0;padding:0;background:#100800;font-family:'Raleway',sans-serif
 #newsletter-modal.open{opacity:1;visibility:visible;transform:translate(-50%,-50%) scale(1);}
 .newsletter-panel{position:relative;overflow:hidden;border-radius:28px;background:linear-gradient(180deg,rgba(255,255,255,.98) 0%,rgba(250,246,240,1) 100%);}
 .newsletter-close{position:absolute;top:18px;right:18px;width:44px;height:44px;border:none;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(26,18,8,.06);color:#1A1208;font-size:1.5rem;cursor:pointer;}
-.newsletter-hero{min-height:210px;background-image:url('https://images.unsplash.com/photo-1521805102669-2f5f3d0fc2e8?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center;}
+.newsletter-hero{min-height:0px;background-image:url('https://images.unsplash.com/photo-1521805102669-2f5f3d0fc2e8?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center;}
 .newsletter-content{padding:2rem 2rem 2.5rem;display:flex;flex-direction:column;gap:1rem;text-align:left;}
 .newsletter-brand{font-family:'Cinzel',serif;font-size:.9rem;letter-spacing:.4em;text-transform:uppercase;color:#8E6D3C;}
 .newsletter-eyebrow{font-family:'Raleway',sans-serif;font-weight:300;font-size:.68rem;letter-spacing:.34em;text-transform:uppercase;color:#8E6D3C;}
